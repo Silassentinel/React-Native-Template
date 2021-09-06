@@ -2,6 +2,9 @@
 
 This repo serves as a base template for React-Native via Expo
 
+!! if after cloning some issue pops up about firebase !!
+!! execute in cmd/terminal expo install firebase !!
+
 
 npm i react-native-elements --save
 npm i --save react-native-vector-icons
