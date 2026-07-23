@@ -12,6 +12,11 @@ on:
   schedule:
     - cron: '27 0 * * 4'
 
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
 jobs:
   njsscan:
     runs-on: ubuntu-latest
